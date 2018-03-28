@@ -7,9 +7,11 @@ import net.dv8tion.jda.core.entities.User;
 public class Command {
 
     private final Bot bot;
+    private Requetes requetes;
 
     public Command(Bot bot){
          this.bot = bot;
+         this.requetes = new Requetes();
     }
 
     @botOfDoom.command.Command(name="stopnow", description = "Permet de connaitre les commandes",type = ExecutorType.ALL)
@@ -24,7 +26,7 @@ public class Command {
 
     @botOfDoom.command.Command(name="newPerso", description = "Créer un nouveau personnage", type = ExecutorType.USER)
     public void createJoueur(User user, MessageChannel channel){
-
+        requetes.createUser(user);
     }
 
 
