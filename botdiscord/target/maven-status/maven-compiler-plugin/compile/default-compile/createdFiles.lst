@@ -1,0 +1,12 @@
+game\objets\TypeArme.class
+game\Objets.class
+botOfDoom\command\SimpleCommand.class
+game\objets\Casque.class
+botOfDoom\command\Command.class
+game\Inventaire.class
+botOfDoom\command\Command$ExecutorType.class
+botOfDoom\HeyListen.class
+game\objets\Arme.class
+botOfDoom\command\CommandMap.class
+game\Stats\Caracteristique.class
+botOfDoom\Bot.class
